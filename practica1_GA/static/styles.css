@@ -1,0 +1,67 @@
+body{
+  background: linear-gradient(#7fffd4, #ffe6ff);
+  min-height: 100vh;
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+ width: 100px;
+ padding:20px;
+ box-shadow: 0 6px 10px rgba(0,0,0,.3);  
+ border-radius: 15px;
+ width:50%;
+ text-align: center;
+ size-adjust: 50px;
+ color:black; 
+ box-sizing: border-box;
+ margin-left:50px;
+ margin-right:50px;
+ margin-bottom: 20px;
+ border: 1px solid #080808;
+}
+
+.airport-card {
+  border: 1px solid #151515;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  size-adjust:50px;
+}
+
+.heading{
+  padding:20px;
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px; 
+  left: 740px;    
+}
+
+.list{
+  margin-left:10px;
+  margin-right:10px;
+  max-height: var(--container-height);
+  border: 2px solid #37392e;
+  border-radius: 5px;
+  scroll-snap-type: y mandatory;
+  overscroll-behavior-y: contain;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-timeline: --listTimeline block;
+}
+.a{
+  border: 1px solid #151515;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  size-adjust:50px;
+  box-shadow: 0 6px 10px rgba(0,0,0,.3);  
+}
